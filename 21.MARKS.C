@@ -3,19 +3,19 @@
 int main()
 {
 int i,total = 0;
-int arr_sort[7];
+int arr[7];
 int Percentage;
 clrscr();
-printf("\nEnter 7 Elements for sorting\n");
+printf("\nEnter marks of 7 subjects\n");
 for(i=0;i<7;i++)
-scanf("%d",&arr_sort[i]);
+scanf("%d",&arr[i]);
 printf("\nMarks of the Student:");
 for(i=0;i<7;i++)
 {
-printf("\t%d",arr_sort[i]);
+printf("\t%d",arr[i]);
 }
 for(i=0;i<7;i++)
-total =total + arr_sort[i];
+total =total + arr[i];
 printf("\nThe total marks of the student:%d",total);
 Percentage = total/7;
 printf("\nThe percentage of the student:%d",Percentage);
