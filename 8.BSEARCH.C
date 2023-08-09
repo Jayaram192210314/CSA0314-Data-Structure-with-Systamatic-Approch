@@ -19,7 +19,6 @@ printf("\nthe position is undefined");
 }
 getch();
 }
-
 int bsearch(int a[],int n,int k)
 {
 int lb=0,ub,mid;

@@ -3,7 +3,6 @@
 main()
 {
 int a[2][2],b[2][2],c[2][2],i,j,k;
-clrscr();
 printf("Enter the elements of A matrix:");
 for(i=0;i<2;i++)
 {

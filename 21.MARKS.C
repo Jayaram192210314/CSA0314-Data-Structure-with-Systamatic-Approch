@@ -5,8 +5,7 @@ int main()
 int i,total = 0;
 int arr[7];
 int Percentage;
-clrscr();
-printf("\nEnter marks of 7 subjects\n");
+printf("\nEnter the marks of 7 subjects\n");
 for(i=0;i<7;i++)
 scanf("%d",&arr[i]);
 printf("\nMarks of the Student:");
